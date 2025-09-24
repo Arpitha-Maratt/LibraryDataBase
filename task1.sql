@@ -65,3 +65,4 @@ VALUES (1, 1, '2025-09-20', '2025-09-30');
 SELECT * FROM Borrow 
 JOIN Members ON Borrow.Member_ID = Members.Member_ID
 JOIN Books ON Borrow.Book_ID = Books.Book_ID;
+
